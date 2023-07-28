@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.canvas {
+    position: absolute
+}
+
+#div-sup {
+    width: 100%;
+    height: 100vh
+}
+
+img {
+    width: 100%;
+    height: 100vh
+}
+
+.box1 {
+    background-image: url(../img/frog-bar-bg.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center
+}
+
+.box2 {
+    background-color: black;
+}
+
+.box3 {
+    background-image: url(../img/frog-bar-bg.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#scoreBar {
+    width: 100%;
+    background-color: green;
+    height: 100%;
+}
+
+#button-start {
+    background-image: url(../img/frog-bar-bg.jpeg);
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 150px;
+}
